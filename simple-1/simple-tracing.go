@@ -1,23 +1,16 @@
-package tracing
+package main
+
+/** Using the great work from
+	https://github.com/yurishkuro
+I take no credit what so ever for this code
+*/
 
 import (
 	"fmt"
 	"os"
-)
 
-/** Using the great work from
-		https://github.com/yurishkuro
-	I take no credit what so ever for this code
- */
-
-package main
-
-import (
-"fmt"
-"os"
-
-"github.com/opentracing/opentracing-go/log"
-"github.com/xmlviking/opentracing-simple/lib/tracing"
+	"github.com/opentracing/opentracing-go/log"
+	"github.com/xmlviking/opentracing-simple/lib/tracing"
 )
 
 func main() {
